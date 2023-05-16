@@ -38,7 +38,7 @@ http://www.mulesoft.org/schema/mule/sap http://www.mulesoft.org/schema/mule/sap/
 		doc:id="562465a7-8482-41fb-ad41-be913eca44c9"
 		name="mule.key" value="123456789mulesof" />
 
-	 <api-gateway:autodiscovery apiId="${api.id}"
+	 <api-gateway:autodiscovery apiId="${api.autodiscoveryId}"
 		doc:name="API Autodiscovery"
 		doc:id="99fac178-73f2-484b-8821-be13d2c2201a" flowRef="iewc-salesdoc_output-eapi-main"
 		ignoreBasePath="true" />
