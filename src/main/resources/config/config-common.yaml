@@ -1,0 +1,12 @@
+# Common File to be use in All env
+application:
+  name: "iewc-salesdoc_output-eapi"
+milestone:
+  category: "LOG"
+  
+ #logging info
+
+source: "iewc-user"
+target: "sb-salesdoc-papi"
+requestMessage: "Received request from iewc user"
+responseMessage: "Response sent back to eapi from papi"
